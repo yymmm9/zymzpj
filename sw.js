@@ -1,0 +1,1 @@
+const CACHE_NAME="mc-cache",offlineUrl=["/offline/index.html"];self.addEventListener("install",function(e){e.waitUntil(caches.open("mc-cache").then(function(e){return e.addAll(offlineUrl)}))}),self.addEventListener("fetch",e=>{e.respondWith(fetch(e.request).catch(e=>caches.match(offlineUrl)))});

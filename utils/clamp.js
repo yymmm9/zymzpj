@@ -1,0 +1,1 @@
+const clamp=(a,t=0,m=1)=>Math.max(t,Math.min(m,a));export default clamp;

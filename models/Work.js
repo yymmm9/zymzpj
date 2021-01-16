@@ -1,0 +1,1 @@
+class Work{constructor(s,t,i,r,a,e){this.name=s,this.types=t,this.awards=i,this.link=r,this.partner=a,this.images=e}}export default Work;

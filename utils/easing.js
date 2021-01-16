@@ -1,0 +1,1 @@
+const easeInOutQuint=t=>t<.5?16*t*t*t*t*t:1+16*--t*t*t*t*t,easeOutQuint=t=>1+--t*t*t*t*t;export{easeOutQuint,easeInOutQuint};
