@@ -1,19 +1,18 @@
 {
   "short_name": "Yi Ming Zhang",
   "name": "Yi Ming Zhang",
-  "description": "Hi, I'm Yi Ming Zhang,",
+  "description": "Hi, I'm Yi Ming Zhang, an Italy based UI/UX designer & Front-end Developer.",
   "icons": [
     {
-      "src": "/assets/icons/icon-192x192.png",
-      "type": "image/png",
-      "sizes": "192x192",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/assets/icons/icon-512x512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
+            "src": "assets/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/icons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
   ],
   "start_url": "/",
   "background_color": "#000000",
