@@ -44,10 +44,10 @@
 
     <link rel="manifest" href="/manifest.webmanifest" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
+    <!-- <link
       href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap"
       rel="stylesheet"
-    />
+    /> -->
 
     <link
       href="https://fonts.googleapis.com/css2?family=Commissioner:wght@300;500&family=Syne&display=swap"
@@ -63,8 +63,13 @@
       ::-webkit-scrollbar {
         display: none;
       }
+
+      @font-face{
+        font-family: "Ti";
+        src: url("/assets/fonts/Leiko-Regular.woff") format("woff")
+      }
       :root {
-        --font-heading: "Noto Serif", sans-serif;
+        --font-heading: "Ti", sans-serif;
         --font-body: "Commissioner", sans-serif;
         --column: 1.6rem;
         --gutter: 1rem;
@@ -173,24 +178,25 @@
       }
       h4 {
         text-transform: uppercase;
+        font-weight: 300;
       }
       h1 {
-        font-size: 3.2rem;
-        line-height: 4rem;
+        font-size: 2.8rem;
+        /* line-height: 4rem; */
         font-weight: normal;
       }
       h2 {
-        font-size: 5rem;
+        font-size: 4.6rem;
         font-weight: normal;
       }
       h3 {
-        font-size: 3.2rem;
-        line-height: 4rem;
+        font-size: 2.8rem;
+        /* line-height: 4rem; */
         font-weight: bold;
       }
       h4 {
         font-size: 1.4rem;
-        font-weight: normal;
+        /* font-weight: normal; */
       }
       a {
         font-size: 1.8rem;
@@ -404,6 +410,8 @@
         align-items: baseline;
       }
       ul#menu li {
+        /* font-family: var(--font-heading); */
+        /* text-transform: uppercase; */
         position: relative;
         display: inline-block;
         margin-left: 4.4rem;
@@ -1097,7 +1105,7 @@
                   class="animated-text__row anchor-link"
                   data-target="works"
                   href="works"
-                  >works</a
+                  >Works</a
                 >
               </li>
               <li class="animated-text" data-splitted="true">
@@ -1105,7 +1113,7 @@
                   class="animated-text__row anchor-link"
                   data-target="info"
                   href="#info"
-                  >contact</a
+                  >Contact</a
                 >
               </li>
             </ul>
@@ -1120,7 +1128,7 @@
                   "
                 ></div>
               </div>
-              <h1 class="animated-text">
+              <h1 class="animated-text" style="margin-right: -24px;">
                 Hi, I'm <span>Yi Ming Zhang</span>, an Italy based UI/UX
                 designer & Front-end Developer.
               </h1>
