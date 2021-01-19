@@ -1,41 +1,6 @@
 import Work from "/models/Work.js";
 const works = [
-  new Work(
-    "Cosiii",
-    ["Website - UI/UX", "Web Development"],
-    [
-      {
-        institution: "cosiii.com",
-        url: "https://cosiii.com/?utm_source=referral&utm_medium=web&utm_campaign=cv",
-        recognitions: [{ name: "Online", date: "2020" }],
-      },
-    ],
-    null,
-    "",
-    [
-      { name: "cosiii/01.jpg", alt: "cosiii" },
-      { name: "cosiii/02.jpg", alt: "cosiii" },
-      { name: "cosiii/03.jpg", alt: "cosiii" },
-    ]
-  ),
-  new Work(
-    "Genius Tech",
-    ["brand identity", "Website - UI/UX", "Web Development"],
-    [
-      {
-        institution: "geniustech.info",
-        url: "https://geniustech.info/?utm_source=referral&utm_medium=web&utm_campaign=cv",
-        recognitions: [{ name: "Online", date: "2020" }],
-      },
-    ],
-    null,
-    "",
-    [
-      { name: "genius-tech/01.jpg", alt: "Genius Tech" },
-      { name: "genius-tech/02.jpg", alt: "Genius Tech" },
-      { name: "genius-tech/03.jpg", alt: "Genius Tech" },
-    ]
-  ),
+  
   new Work(
     "Stream Italy",
     ["brand identity", "Website - UI/UX", "Web Development"],
@@ -43,7 +8,12 @@ const works = [
         {
           institution: "stream-italy.com",
           url: "https://stream-italy.com/?utm_source=referral&utm_medium=web&utm_campaign=cv",
-          recognitions: [{ name: "Online", date: "2019" }],
+          recognitions: [{ name: "Online", date: "2018" }],
+        },
+        {
+          institution: "Instagram",
+          url: "https://instagram.com/stream_storemilano",
+          recognitions: [{ name: "", date: "@stream_storemilano" }],
         },
       ],null,"",
     
@@ -108,6 +78,11 @@ const works = [
         url: "https://siakarati.com/?utm_source=referral&utm_medium=web&utm_campaign=cv",
         recognitions: [{ name: "Online", date: "2019" }],
       },
+      {
+          institution: "Instagram",
+          url: "https://www.instagram.com/siakarati/",
+          recognitions: [{ name: "", date: "@siakarati" }],
+        },
     ],
     null,
     "",
@@ -116,6 +91,54 @@ const works = [
       { name: "sk/02.jpg", alt: "Sia Karati" },
       { name: "sk/03.jpg", alt: "Sia Karati" },
     ]
+  ),
+
+  new Work(
+    "Cosiii",
+    ["Website - UI/UX", "Web Development"],
+    [
+      {
+        institution: "cosiii.com",
+        url: "https://cosiii.com/?utm_source=referral&utm_medium=web&utm_campaign=cv",
+        recognitions: [{ name: "Online", date: "2020" }],
+      },
+      {
+          institution: "Instagram",
+          url: "https://instagram.com/cosiii_official",
+          recognitions: [{ name: "", date: "@cosiii_official" }],
+        },
+    ],
+    null,
+    "",
+    [
+      { name: "cosiii/01.jpg", alt: "cosiii" },
+      { name: "cosiii/02.jpg", alt: "cosiii" },
+      { name: "cosiii/03.jpg", alt: "cosiii" },
+    ]
+  ),
+  new Work(
+    "Genius Tech",
+    ["brand identity", "Website - UI/UX", "Web Development"],
+    [
+      {
+        institution: "geniustech.info",
+        url: "https://geniustech.info/?utm_source=referral&utm_medium=web&utm_campaign=cv",
+        recognitions: [{ name: "Online", date: "2020" }],
+      },
+      {
+          institution: "Instagram",
+          url: "https://instagram.com/geniustech.info",
+          recognitions: [{ name: "", date: "@geniustech.info" }],
+        },
+    ],
+    null,
+    "",
+    [
+      { name: "genius-tech/01.jpg", alt: "Genius Tech" },
+      { name: "genius-tech/02.jpg", alt: "Genius Tech" },
+      { name: "genius-tech/03.jpg", alt: "Genius Tech" },
+    ]
+    
   ),
 //   new Work("Covid-19 Posters", ["GRAPHIC DESIGN"], null, null, "", [
 //     { name: "covid/2.jpg", alt: "Covid-19 Posters" },
