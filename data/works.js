@@ -85,20 +85,20 @@ const works = [
   ),
 
 
-  new Work("Petlab", ["brand identity"], 
-  [
-    {
-      institution: "petlab.io",
-      url: "https://petlab.io/?utm_source=referral&utm_medium=web&utm_campaign=cv",
-      recognitions: [{ name: "In Progress", date: "2021" }],
-    },
-  ], null, "", [
-    // { name: "beaumont/1.jpg", alt: "Beaumont", noMobile: !0 },
-    // { name: "beaumont/2.jpg", alt: "Beaumont", noMobile: !0 },
-    { name: "petlab/01.jpg", alt: "Petlab" },
-    { name: "petlab/02.jpg", alt: "Petlab" },
-    // { name: "beaumont/6.jpg", alt: "Beaumont", noMobile: !0 },
-  ]),
+  // new Work("Petlab", ["brand identity"], 
+  // [
+  //   {
+  //     institution: "petlab.io",
+  //     url: "https://petlab.io/?utm_source=referral&utm_medium=web&utm_campaign=cv",
+  //     recognitions: [{ name: "In Progress", date: "2021" }],
+  //   },
+  // ], null, "", [
+  //   // { name: "beaumont/1.jpg", alt: "Beaumont", noMobile: !0 },
+  //   // { name: "beaumont/2.jpg", alt: "Beaumont", noMobile: !0 },
+  //   { name: "petlab/01.jpg", alt: "Petlab" },
+  //   { name: "petlab/02.jpg", alt: "Petlab" },
+  //   // { name: "beaumont/6.jpg", alt: "Beaumont", noMobile: !0 },
+  // ]),
   new Work(
     "Sia Karati",
     ["Website - UI/UX", "Web Development"],
